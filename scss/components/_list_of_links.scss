@@ -1,0 +1,24 @@
+.shadow-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 20px;
+}
+
+.shadow-list__li {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 10%;
+  transition: background-color 0.2s;
+  background-color: var(--background-accent);
+  box-shadow: var(--box-shadow);
+}
+
+.shadow-list__li:hover {
+  background-color: var(--background-accent-hover);
+}
+
+.shadow-list__href:hover {
+  text-decoration: underline;
+}

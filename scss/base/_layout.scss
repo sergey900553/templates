@@ -1,0 +1,12 @@
+.base-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.article-box{
+  margin: 30px 0;
+  background-color: var(--background-primary-alt);
+  box-shadow: var(--box-shadow);
+  padding: 30px;
+  border-radius: 3px;
+}

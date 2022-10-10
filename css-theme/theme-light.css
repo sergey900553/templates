@@ -1,0 +1,27 @@
+:root {
+    --text-normal: initial;
+    --text-muted: #bbb;
+    --text-accent: #1F2937;
+    --text-accent-hover: #1F2937;
+
+    --text-selection: rgba(0, 122, 255, 0.2);
+
+
+    --background-primary: initial;
+    --background-primary-alt: initial;
+    --background-secondary: #11161d;
+    --background-secondary-alt: #0d1117;
+
+    --background-accent: initial;
+    --background-accent-hover: #e3e3e3;
+
+    --background-blue: #2f5264;
+    --background-purple: #443f57;
+    --background-pink: #533b4a;
+    --background-red: #683c3c;
+
+
+    --box-shadow: rgb(0 0 0 / 33%) 0px 0px 5px 0px;
+    --box-shadow-quote:initial;
+
+}

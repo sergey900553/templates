@@ -1,0 +1,25 @@
+.inner__pseudo-quote{
+  max-width: 525px;
+  margin: auto;
+}
+
+
+.pseudo-quote {
+  position: relative;
+  padding: 100px 75px;
+  line-height: 1.7;
+  box-shadow: var(--box-shadow-quote);
+  background-color: #00ffc4;
+}
+
+.pseudo-quote::before {
+  content: "“";
+  position: absolute;
+  font-size: 150px;
+  font-weight: bold;
+  color: #123E66;
+  line-height: 1;
+  font-family: "Arial", serif;
+  top: 22px;
+  left: 63px;
+}

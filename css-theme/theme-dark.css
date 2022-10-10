@@ -1,0 +1,70 @@
+:root{
+    --text-normal: hsl(240, 100%, 99%);
+    --text-muted: #bbb;
+    --text-accent: hsl(167, 78%, 49%);
+    --text-accent-hover: hsl(167, 78%, 49%);
+    --text-selection: rgba(0, 122, 255, 0.2);
+
+
+    --background-primary: hsl(232, 14%, 15%);
+    --background-primary-alt: hsl(240, 7%, 11%);
+    --background-secondary: #11161d;
+    --background-secondary-alt: #0d1117;
+
+    --background-accent: hsl(240, 7%, 9%);
+    --background-accent-hover: hsl(240, 7%, 6%);
+
+    --background-blue: #2f5264;
+    --background-purple: #443f57;
+    --background-pink: #533b4a;
+    --background-red: #683c3c;
+
+
+    --box-shadow: initial;
+    --box-shadow-quote: rgb(0 0 0 / 33%) 0px 0px 5px 0px;
+
+
+    --interactive-normal: #20242b;
+    --interactive-normal-2: #asd;
+    --interactive-hover: #353b47;
+    --interactive-accent: #4c78cc;
+    --interactive-accent-hover: #5082df;
+
+
+
+
+
+    --red: hsl(347, 100%, 53%);
+    --red-2: #ff4f4f;
+    --yellow: #ffdc51;
+    --yellow-2: #cca217;
+    --yellow-3: hsl(78, 93%, 52%);
+    --yellow-4: hsl(48, 98%, 53%);
+    --green: #52c7b2;
+    --green-2: hsl(146, 83%, 48%);
+    --green-3: #52c7b2;
+    --cyan: hsl(194, 58%, 53%);
+    --cyan-2: hsl(199, 100%, 50%);
+    --cyan-3: hsl(178, 90%, 27%);
+    --cyan-4: hsl(193, 79%, 21%);
+    --orange: hsl(43, 100%, 62%);
+    --orange-1: hsl(0, 100%, 67%);
+    --orange-2: hsl(347, 100%, 58%);
+    --orange-3: hsl(13, 100%, 62%);
+    --orange-4: #ffa344;
+    --blue: hsl(207, 82%, 66%);
+    --blue-2: hsl(208, 100%, 50%);
+    --blue-3: #7c94ff;
+    --pink: #ff6bba;
+    --pink-2: #e91e63;
+    --pink-3: hsl(322, 96%, 40%);
+
+
+    --text-title-h1: hsl(208, 100%, 58%);
+    --text-title-h2: hsl(146, 100%, 48%);
+    --text-title-h3: hsl(182, 100%, 52%);
+    --text-title-h4: hsl(60, 92%, 71%);
+    --text-title-h5: hsl(0, 100%, 67%);
+    --text-title-h6: hsl(313, 100%, 62%);
+}
+

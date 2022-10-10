@@ -1,0 +1,25 @@
+{
+  "name": "web_manual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel liveserver watch:scss",
+    "build": "npm-run-all build:scss prefix buildAndCompress:scss",
+    "liveserver": "live-server -V  --ignorePattern=.scss --no-css-inject",
+    "liveserver1": "live-server -V --ignore=scss,node_modules . --no-css-inject",
+    "build:scss": "sass scss:css",
+    "buildAndCompress:scss": "sass scss:css --style compressed",
+    "watch:scss": "sass --watch scss:css",
+    "prefix": "postcss css/index.css --use autoprefixer -o css/index.css"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.55.0"
+  }
+}

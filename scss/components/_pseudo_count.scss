@@ -1,0 +1,68 @@
+.pseudo-count {
+    counter-reset: section;
+
+    >.pseudo-count--top-left {
+        position: relative;
+    }
+
+    >.pseudo-count--top-left::before {
+        counter-increment: section;
+        content: "Example -  " counter(section);
+        opacity: 25%;
+        font-size: 20px;
+        user-select: none;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    >.pseudo-count--top-right {
+        position: relative;
+    }
+
+    >.pseudo-count--top-right::before {
+        counter-increment: section;
+        content: "Example -  " counter(section);
+        opacity: 25%;
+        font-size: 20px;
+        user-select: none;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    >.pseudo-count--bottom-left {
+        position: relative;
+    }
+
+    >.pseudo-count--bottom-left::before {
+        counter-increment: section;
+        content: "Example -  " counter(section);
+        opacity: 25%;
+        font-size: 20px;
+        user-select: none;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    >.pseudo-count--bottom-right {
+        position: relative;
+    }
+
+    >.pseudo-count--bottom-right::before {
+        counter-increment: section;
+        content: "Example -  " counter(section);
+        opacity: 25%;
+        font-size: 20px;
+        user-select: none;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+}
+
+
+
+
